@@ -1,0 +1,18 @@
+let filmes = ["Meu Malvado Favorito", "A princesa e o Sapo", "Megamente", "Branca de Neve", "Lilo e Stich", "Viva a Vida é uma Festa", "Red: Crescer é uma Fera"];
+console.log(filmes[0]);
+console.log(filmes[4]);
+filmes.push("Cinderela");
+console.log(filmes);
+filmes[7] = "Bella e a Fera";
+console.log(filmes);
+filmes[5] = "Bolt";
+console.log(filmes);
+filmes.shift();
+console.log(filmes);
+filmes.pop();
+console.log(filmes);
+console.log(filmes.slice(0,3));
+console.log(filmes.slice(-4));
+console.log(filmes.length);
+filmes.reverse();
+console.log(filmes);
